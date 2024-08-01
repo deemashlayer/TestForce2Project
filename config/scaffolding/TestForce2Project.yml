@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/deemashlayer/TestForce2Project
   gitUsername: deemashlayer
   gitBranch: main
+services:
+- serviceName: project.testforce2.integrations:test45
+  packages:
+  - name: TestForce2Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1112
